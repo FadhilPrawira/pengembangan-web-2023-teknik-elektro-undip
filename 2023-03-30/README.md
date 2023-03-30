@@ -22,5 +22,7 @@ menjadi seperti ini:
 ```$config['index_page'] = 'index.php';```
 menjadi seperti ini:
 ```$config['index_page'] = '';```
-7. Jika membuat url, arahkan ke controllers lalu ke view. Contoh:
-Anda sudah membuat file controllers ```Mahasiswa.php``` dan view ```welcome_mahasiswa.php```, serta ```tampil.php```. Maka tulis link pada ```welcome_mahasiswa.php``` dengan kode ```<a href="mahasiswa/tampil">Tampil mahasiswa</a>```
+7. Jika membuat url, arahkan ke controllers lalu ke view. 
+Contoh:
+Anda sudah membuat file controllers ```Mahasiswa.php``` dan view ```welcome_mahasiswa.php```, serta ```tampil.php```. 
+Maka tulis link pada ```welcome_mahasiswa.php``` dengan kode ```<a href="mahasiswa/tampil">Tampil mahasiswa</a>```
