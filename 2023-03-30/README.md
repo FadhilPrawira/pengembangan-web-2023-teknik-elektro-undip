@@ -1,7 +1,9 @@
-# Code Igniter
-- Download Code Igniter 3 dari https://codeigniter.com/download
-- Khusus CI3 gunakan PHP 7.4
-
+# Persiapan Code Igniter
+1. Download Code Igniter 3 dari https://codeigniter.com/download
+    - Khusus CI3 gunakan PHP 7.4
+2. Extract file zip tersebut, ubah nama foldernya menjadi ```pweb```
+3. pindahkan folder ```pweb``` ke ```C:/XAMPP/htdocs```
+ 
 # Setting URL untuk ```<a href=""></a>```
 1. buat file bernama ```.htaccess```
 2. isi file tersebut dengan command berikut
@@ -23,6 +25,6 @@ menjadi seperti ini:
 menjadi seperti ini:
 ```$config['index_page'] = '';```
 7. Jika membuat url, arahkan ke controllers lalu ke view. 
-Contoh:
-Anda sudah membuat file controllers ```Mahasiswa.php``` dan view ```welcome_mahasiswa.php```, serta ```tampil.php```. 
-Maka tulis link pada ```welcome_mahasiswa.php``` dengan kode ```<a href="mahasiswa/tampil">Tampil mahasiswa</a>```
+    Contoh:
+    Anda sudah membuat file controllers ```Mahasiswa.php``` dan view ```welcome_mahasiswa.php```, serta ```tampil.php```. 
+    Maka tulis link pada ```welcome_mahasiswa.php``` dengan kode ```<a href="mahasiswa/tampil">Tampil mahasiswa</a>```
