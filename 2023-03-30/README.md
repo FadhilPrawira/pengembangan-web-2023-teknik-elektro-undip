@@ -1,6 +1,6 @@
 # Persiapan Code Igniter
-1. Download Code Igniter 3 dari https://codeigniter.com/download
-    > **_NOTE:_**  Khusus CI3 gunakan PHP 7.4
+1. Download Code Igniter 3 dari [https://codeigniter.com/download](https://codeigniter.com/download)
+    > **_NOTE:_**  Khusus CI3 gunakan PHP 7.4. Uninstall XAMPP Anda dan install XAMPP dengan PHP 7.4 dari [sini](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.33/xampp-windows-x64-7.4.33-0-VC15-installer.exe/download).
 2. Extract file zip tersebut, ubah nama foldernya menjadi ```pweb```
 3. pindahkan folder ```pweb``` ke ```C:/XAMPP/htdocs```
 
