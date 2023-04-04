@@ -46,13 +46,23 @@ class Mahasiswa_model extends CI_Model
 
     public function update()
     {
-        $this->load->view("menu");
         $post = $this->input->post();
         $this->id = $post["id"];
         $this->nama = $post["nama"];
         $this->alamat = $post["alamat"];
        // $this->description = $post["description"];
         return $this->db->update($this->_table, $this, array('id' => $post['id']));
+    }
+
+    public function caridata($keyword)
+    {
+	    if(!$keyword){
+		return null;
+	    }
+	    $this->db->like('nama', $keyword);
+	    $this->db->or_like('alamat', $keyword);
+	    $query = $this->db->get($this->_table);
+	    return $query->result();
     }
 
     public function delete($id)

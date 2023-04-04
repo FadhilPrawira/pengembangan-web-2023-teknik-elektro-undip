@@ -14,7 +14,7 @@
 				</div>
 				<?php endif; ?>
 
-						<form action="<?php  base_url('add') ?>" method="post" >
+						<form action="<?php echo site_url('mahasiswa/add') ?>" method="post" >
                 
 								<label for="id">id*</label>
 								<input class="form-control <?php echo form_error('id') ? 'is-invalid':'' ?>"
