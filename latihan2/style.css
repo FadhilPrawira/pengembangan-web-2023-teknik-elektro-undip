@@ -1,0 +1,41 @@
+.huruf-besar {
+    font-size: 40pt;
+}
+.tengah {
+    text-align: center;
+}
+
+#biru {
+    color:blue;
+    
+}
+
+p, h1 {
+    color: green;
+}
+
+h1 {
+    font-style: italic;
+}
+
+p {
+    font-weight: bold;
+    /* line-height: 0%; */
+    font-family: "Fira Codes";
+    text-indent: 12.5pt;
+    text-transform:uppercase;
+    letter-spacing: normal;
+    word-spacing: 10pt;
+}
+
+
+.fontBaru {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+a {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    color: black;
+}
