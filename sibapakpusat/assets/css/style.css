@@ -1,0 +1,26 @@
+.sidebar-dark .sidebar-brand {
+    background: #0D2828;
+}
+.bg-dark{
+  background: #0D2828 !important;;
+}
+
+.bg-custom {
+  background-color: #00908E !important;
+}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item {
+ white-space: initial !important;
+}
+.sidebar .nav-item .collapse, .sidebar .nav-item .collapsing {
+margin: 0 !important;
+}
+.full-width{
+  width: 100%;
+}
+.container-fluid{
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+.mg-top-20{
+  margin-top: 20px;
+}
